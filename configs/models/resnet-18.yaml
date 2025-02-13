@@ -1,0 +1,7 @@
+backbone:
+  - [ResBlock, 2, [64]]
+  - [ResBlock, 2, [128]]
+  - [ResBlock, 2, [256]]
+  - [ResBlock, 2, [512]]
+head:
+  - [FC, [1000]]

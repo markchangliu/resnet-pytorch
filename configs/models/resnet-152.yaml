@@ -1,0 +1,7 @@
+backbone:
+  - [BottleneckResBlock, 3, [64, 256]]
+  - [ResBlock, 8, [128, 512]]
+  - [ResBlock, 36, [256, 1024]]
+  - [ResBlock, 3, [512, 2048]]
+head:
+  - [FC, [1000]]
